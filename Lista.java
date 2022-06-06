@@ -68,14 +68,16 @@ public class Lista extends RegistrarDatos {
         Scanner teclado =new Scanner (System.in);
         String departamento;
         int indice=0;
+        System.out.println("-------------------------------------------------");
         System.out.println("Departamento a buscar:");
         departamento=teclado.nextLine();
         indice=listaDep.indexOf(departamento);
         if(indice !=-1){
         System.out.println("El departamento se ingreso en la posicion :"+ indice);
-        
+        System.out.println("-------------------------------------------------");
         }else{
-            System.out.println("El departamento no fue encontrado");
+            System.out.println("El departamento no fue encontrado, intente de nuevo");
+            System.out.println("-------------------------------------------------");
         }
         
         }
