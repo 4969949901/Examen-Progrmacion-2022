@@ -110,24 +110,26 @@ public class RegistrarDatos {
 }
 
     public void impares(){
-    String []departamento= new String[6];
-    
+    String []departamento= new String[7];
+    System.out.println("-------------------------------------------------");
     departamento[0]="Guatemala";
     departamento[1]="Zacapa";
     departamento[2]="Izabal";
     departamento[3]="Peten";
     departamento[4]="Santa Rosa";
     departamento[5]="Quetzaltenango";
+    departamento[6]="Alta Verapaz";
     
     for (String depa:departamento){
-     System.out.println(" Departamentoregistrados:"+departamento);
+     System.out.println(" Departamentos registrados:"+departamento);
     }
     
     System.out.println("----- POSICIONES IMPARES----");
-    System.out.println(departamento[1]);
-    System.out.println(departamento[3]);
-    System.out.println(departamento[5]);
-    System.out.println("-------------------------------");
+    System.out.println(departamento[0]);
+    System.out.println(departamento[2]);
+    System.out.println(departamento[4]);
+    System.out.println(departamento[6]);
+    System.out.println("---------------------------------------------------");
     }
      
 }
