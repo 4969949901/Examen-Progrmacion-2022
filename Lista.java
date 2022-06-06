@@ -86,14 +86,17 @@ public class Lista extends RegistrarDatos {
      Scanner inc=new Scanner (System.in);
      String valor;
      int indice;
+      System.out.println("-------------------------------------------------");
      System.out.println("Datos a eliminar");
      valor=inc.nextLine();
      indice=listaDep.lastIndexOf(valor);
+      System.out.println("-------------------------------------------------");
      if (indice !=-1){
      listaDep.remove(indice);
      System.out.println("El dato a sido eliminado");
      }else {
      System.out.println("El dato no se encuentra");
+      System.out.println("-------------------------------------------------");
      }
     
     }
