@@ -52,12 +52,16 @@ public class Lista extends RegistrarDatos {
     
     public void mostrarDepartamento(){
         if (!listaDep.isEmpty()){
+        System.out.println("-------------------------------------------------");
         System.out.println("Los Departamentos Registrados en la lista son:");
         for (int i=0; i<listaDep.size();i++){
          System.out.println(listaDep.get(i));
+         System.out.println("-------------------------------------------------");
         }
         } else {
+         System.out.println("-------------------------------------------------");
          System.out.println(" No existen los datos ingresados en la lista");
+         System.out.println("-------------------------------------------------");
         }
     }
     public void buscarDepartamento(){
